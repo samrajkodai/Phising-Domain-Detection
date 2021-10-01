@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'main4.css'%}">
+    <title>Phishing</title>
+    <style>
+        .bo{
+            background-color: #E3E2DF;
+            padding-right: 10px;
+            padding-left: 10px;
+            border:red;
+            
+        }
+        #src{
+            width: 50%;
+            margin-left: 26%;
+        }
+        #samraj{
+            width: 10%;
+            height: 10%;
+            border-radius: 50%;
+        }
+        h4{
+            border: violet;
+        }
+    </style>
+</head>
+<body class='bo'>
+    {% load static%}
+
+    {%include "navbar1.html"%}
+    
+    <br>
+    <div class="jumbotron">
+        <h5 class="display-4" style="text-align: center; color: rgb(7, 2, 82);"><b>Phishing Home Page</b> </h5>
+        <p id="cl" style="text-align: center; color: rgb(9, 112, 6);">This website helps to find the phishing URL's for you.</p>
+        <hr class="my-4">
+        <h4 style="margin-left: 4%; margin-right: 4%;"> Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers. It occurs when an attacker, masquerading as a trusted entity, dupes a victim into opening an email, instant message, or text message.</h4>
+        <br>
+        <p class="lead" style="margin-left: 4%;">
+          <a class="btn btn-primary btn-lg"  href="{%url 'home'%}" role="button" onclick="click()">Click Here</a>
+        </p>
+      </div>
+        <img id='src' src="{%static 'hacker-phishing.jpg'%}" class="img-fluid" alt="...">
+      <br>
+      <br>
+
+        <h3 style="margin-left: 4%; margin-right: 4%;">How does phishing work?</h3>
+       
+        <h6 style="margin-left: 4%; margin-right: 4%;">Phishing starts with a fraudulent email or other communication that is designed to lure a victim. The message is made to look as though it comes from a trusted sender. If it fools the victim, he or she is coaxed into providing confidential information, often on a scam website. Sometimes malware is also downloaded onto the target’s computer.</h6>
+        <br>
+        <br>
+        <br>
+        <h3 style="margin-left: 4%; margin-right: 4%;">What are the dangers of phishing attacks?</h3>
+       
+        <h6 style="margin-left: 4%; margin-right: 4%;">Sometimes attackers are satisfied with getting a victim’s credit card information or other personal data for financial gain. Other times, phishing emails are sent to obtain employee login information or other details for use in an advanced attack against a specific company. Cybercrime attacks such as advanced persistent threats (APTs) and ransomware often start with phishing.</h6>
+
+        <br>
+        <br>
+        <h5 style="margin-left: 4%; margin-right: 4%;"> If you want to know more about phishing websites visit wikipedia page</h5>
+        <a style="margin-left: 4%; margin-right: 4%;" href="https://en.wikipedia.org/wiki/Phishing">click here</a>
+        <br>
+
+        <hr class="my-4">
+
+      
+    
+</body>
+</html>

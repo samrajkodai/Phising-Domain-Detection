@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from Taskapp import views
+from . import views
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',include("Taskapp.urls")),
+    path('home',views.home,name='home'),
+    path('',views.home2,name='home2'),
+    path('result',views.result,name='result')
+   
 ]

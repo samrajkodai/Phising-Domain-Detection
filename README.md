@@ -16,5 +16,5 @@ After collecting Data The First step is Data Preprocessing
 ##  Feature scaling
 
 
-
+## ML Model
 ![random-forest-algorithm](https://user-images.githubusercontent.com/61903698/137664616-6ddf7509-6877-489b-9950-cca67ed76f16.png)

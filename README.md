@@ -15,3 +15,6 @@ After collecting Data The First step is Data Preprocessing
 ##  Splitting dataset into training and test set
 ##  Feature scaling
 
+
+
+![random-forest-algorithm](https://user-images.githubusercontent.com/61903698/137664616-6ddf7509-6877-489b-9950-cca67ed76f16.png)

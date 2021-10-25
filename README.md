@@ -13,7 +13,7 @@ After collecting Data The First step is Data Preprocessing
 ##  Finding Missing Data
 ##  Encoding Categorical Data
 ##  Splitting dataset into training and test set
-##  Feature scaling
+##  Feature scalin
 
 
 ## ML Model
